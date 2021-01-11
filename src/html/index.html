@@ -3,24 +3,95 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Anonymous Proxy</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
     <div class="page">
-      <include
-        src="./partials/header.html"
-        title="Bienvenidos a Adalab"
-      ></include>
-      <include src="./partials/main.html"></include>
-      <include src="./partials/footer.html"></include>
+      <header class="header--hero">
+        <nav class="header--nav">
+          <a href="https://adalab.es/">
+            <img
+              class="header--nav__icon"
+              src="./assets/images/ico-menu.svg"
+              alt="icon-menu"
+          /></a>
+        </nav>
+        <div>
+          <h1
+            class="header--title"
+            title="Anonymous Proxy"
+            alt="Anonymous Proxy"
+          >
+            <span class="header--title__block">anonymous</span>
+            <span class="header--title__block">proxy</span>
+          </h1>
+          <h3
+            class="header--subtitle"
+            title="In hac habitasse platea dictumst."
+            alt="In hac habitasse platea dictumst."
+          >
+            In hac habitasse platea dictumst.
+          </h3>
+        </div>
+
+        <div class="header--icon__bottom">
+          <a href="#reasons"
+            ><img
+              src="./assets/images/ico-scroll-down.svg"
+              class="header--icon__scroll"
+              alt="scroll"
+          /></a>
+        </div>
+      </header>
+
+      <main>
+        <section class="tips">
+          <small>Insomnia Tips </small>
+          <h2>Looking Through A Window Donec</h2>
+          accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+          luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+
+          <p>
+            Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+            at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+          </p>
+          <button>go</button>
+        </section>
+
+        <section class="reasons">
+          <h2 id="reasons">3 Reasons To Purchase</h2>
+          <div>Ut sed metus Lorem ipsum dolor sit amet, consecteur.</div>
+          <div>Curabitur ac erat Mauris mattis urna quis lorem molestie.</div>
+          <div>Morbi dictum Aliquam in dolor et dolor tincidunt.</div>
+          <button>more reasons</button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer--links">
+          <span>Articles</span>
+          <span>Books</span>
+          <span>Events</span>
+          <span>Reasons</span>
+          <span>Tips</span>
+        </div>
+        <div class="footer--social">
+          <span>Twitter</span>
+          <span>Instagram</span>
+          <span>Mastodon.social</span>
+        </div>
+        <div classs="footer--copy">
+          <span>©2017 </span>
+          <span>we ❤︎ components</span>
+        </div>
+      </footer>
     </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>

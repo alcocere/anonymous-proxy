@@ -1,8 +1,58 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import "core/variables";
+@import "core/reset";
+
+.header--hero {
+  height: 100vh;
+  background: url(../images/cover.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header--title {
+  padding: 284px 15px 10px 15px;
+  font-family: $font-titles;
+  font-size: 42px;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header--title__block {
+  display: block;
+}
+
+.header--subtitle {
+  height: 21px;
+  font-family: $font-main;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 45px;
+  color: white;
+}
+
+.header--nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  background-color: #0271bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header--icon__bottom {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-left: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
