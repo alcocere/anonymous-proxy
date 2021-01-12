@@ -146,7 +146,7 @@
 .reasons--container {
   display: grid;
   grid-template-rows: 1fr, 1fr, 1fr;
-  padding: 0 70px 0 70px;
+  padding: 0 35px 0 40px;
 }
 
 .reasons--3reasons__title {
@@ -318,7 +318,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 27px;
     grid-template-rows: 1fr;
-    padding: 30px 39px 0 35px;
   }
 
   .reasons--3reasons__title {
@@ -362,6 +361,7 @@
 
   .footer--copy {
     order: -1;
+    font-size: 14px;
     text-align: left;
     width: 210px;
   }
