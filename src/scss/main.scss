@@ -254,3 +254,48 @@
 .footer--icon {
   color: red;
 }
+
+@media all and (min-width: 720px) {
+  .header--title {
+    font-size: 80px;
+    line-height: 1.33;
+    width: 690px;
+    margin: 340px 0 20px 39px;
+  }
+
+  .header--subtitle {
+    height: 32px;
+    font-family: $font-main;
+    font-size: 24px;
+    width: 360px;
+    margin: 20px 165px 30px 160px;
+  }
+  .header--icon__bottom {
+    margin: 0 auto 45px;
+  }
+
+  // TIPS SECTION //
+  .tips {
+    margin: 30px 39px 60px;
+  }
+
+  .tips--title {
+    width: 690px;
+    height: 45px;
+    font-family: $font-titles;
+    font-size: 26px;
+    line-height: 1.73;
+  }
+
+  .tips--description {
+    width: 690px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-right: 30px 39px 0;
+  }
+  .tips--button {
+    width: 91px;
+    height: 45px;
+  }
+}
