@@ -6,8 +6,8 @@
   background: url(../images/cover.jpg) center no-repeat;
   background-size: cover;
   display: flex;
-  align-content: center;
   flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -55,6 +55,7 @@
   background-color: white;
   display: flex;
   align-items: center;
+  margin-bottom: 45px;
 }
 
 // TIPS SECTION //
