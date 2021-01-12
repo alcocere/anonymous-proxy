@@ -318,6 +318,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 27px;
     grid-template-rows: 1fr;
+    padding: 30px 39px 0 35px;
   }
 
   .reasons--3reasons__title {
@@ -363,5 +364,9 @@
     order: -1;
     text-align: left;
     width: 210px;
+  }
+
+  .reasons--icon__bottom {
+    transform: translate(0, 65px);
   }
 }
