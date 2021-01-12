@@ -226,6 +226,11 @@
   text-transform: uppercase;
 }
 
+.footer--nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer--copy {
   font-family: $font-main;
   font-size: 14px;
