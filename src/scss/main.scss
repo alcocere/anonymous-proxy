@@ -249,9 +249,12 @@
   line-height: 2.14;
   text-align: center;
   color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
 }
 
-.footer--icon {
+.copy--small__icon {
   color: red;
 }
 
@@ -337,5 +340,28 @@
   }
   .reasons--icon__bottom {
     transform: translate(0, 65px);
+  }
+  // FOOTER//
+
+  .footer {
+    padding: 45px 39px 45px;
+    height: 240px;
+  }
+  .footer--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .footer--nav {
+    text-align: left;
+    width: 210px;
+  }
+
+  .footer--copy {
+    order: -1;
+    text-align: left;
+    width: 210px;
   }
 }
