@@ -193,3 +193,13 @@
   color: $color-secondary;
   border: $color-secondary solid 3px;
 }
+
+.reasons--icon__bottom {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  padding-top: 10px;
+  background-color: white;
+  margin: auto;
+  transform: translate(0, 23px);
+}
