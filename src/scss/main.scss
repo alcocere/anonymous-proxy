@@ -145,6 +145,8 @@
 }
 
 .reasons--container {
+  display: grid;
+  grid-template-rows: 1fr, 1fr, 1fr;
   padding: 0 70px 60px 70px;
 }
 
@@ -178,9 +180,7 @@
   line-height: 2.25;
   border-radius: 22.5px;
   background-color: $color-buttons;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 .reasons--button__link {
