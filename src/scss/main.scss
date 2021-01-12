@@ -203,3 +203,37 @@
   margin: auto;
   transform: translate(0, 23px);
 }
+
+// FOOTER //
+
+.footer {
+  height: 465px;
+  background-color: $color-darkBlue;
+  padding-top: 60px;
+}
+
+.footer--nav {
+  font-family: $font-main;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  color: $color-secondary;
+  margin-bottom: 30px;
+}
+
+.footer--nav__list {
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.footer--copy {
+  font-family: $font-main;
+  font-size: 14px;
+  line-height: 2.14;
+  text-align: center;
+  color: $color-secondary;
+}
+
+.footer--icon {
+  color: red;
+}
