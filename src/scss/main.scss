@@ -11,30 +11,6 @@
   align-items: center;
 }
 
-.header--title {
-  padding: 284px 15px 10px 15px;
-  font-family: $font-titles;
-  font-size: 42px;
-  line-height: 1.31;
-  letter-spacing: normal;
-  text-align: center;
-  color: white;
-  text-transform: uppercase;
-}
-
-.header--title__block {
-  display: block;
-}
-
-.header--subtitle {
-  height: 21px;
-  font-family: $font-main;
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 45px;
-  color: white;
-}
-
 .header--nav {
   position: fixed;
   top: 0;
@@ -47,6 +23,30 @@
   align-items: center;
 }
 
+.header--title__block {
+  display: block;
+}
+
+.header--title {
+  padding: 284px 15px 10px 15px;
+  font-family: $font-titles;
+  font-size: 42px;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header--subtitle {
+  height: 21px;
+  font-family: $font-main;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 45px;
+  color: white;
+}
+
 .header--icon__bottom {
   width: 45px;
   height: 45px;
@@ -55,4 +55,74 @@
   background-color: white;
   display: flex;
   align-items: center;
+}
+
+// TIPS SECTION //
+
+.container {
+  margin: 0 39px 0 39px;
+}
+.tips {
+  margin-top: 30px;
+}
+
+.tips--small {
+  font-family: $font-main;
+  color: $color-lightBlue;
+  width: 90px;
+  font-size: 14px;
+  line-height: 2.14;
+  letter-spacing: normal;
+  margin-top: 30px;
+}
+
+.tips--title {
+  width: 290px;
+  height: 60px;
+  margin: 1px 0 15px;
+  font-family: $font-titles;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: $color-main;
+  text-transform: capitalize;
+}
+
+.tips--description {
+  height: 120px;
+  margin: 15px 0 30px;
+  font-family: $font-main;
+  font-size: 18px;
+  line-height: 1.67;
+  color: $color-textSecondary;
+}
+
+.tips--button {
+  width: 76px;
+  height: 45px;
+  font-family: $font-main;
+  color: $color-buttons;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2.25;
+  border: $color-buttons solid 3px;
+  padding: 0 25px 0 26px;
+  border-radius: 22.5px;
+  background-color: transparent;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tips--button__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.tips--button:hover {
+  background: $color-buttons;
+  color: $color-secondary;
+  border: $color-secondary solid 3px;
 }
