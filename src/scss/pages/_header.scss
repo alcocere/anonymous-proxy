@@ -2,10 +2,9 @@
   height: 100vh;
   background: url(../images/cover.jpg) center no-repeat;
   background-size: cover;
-  display: flex;
+  @include flexCenter();
   flex-direction: column;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .header--nav {
@@ -15,9 +14,8 @@
   width: 44px;
   height: 44px;
   background-color: #0271bc;
-  display: flex;
+  @include flexCenter();
   justify-content: center;
-  align-items: center;
 }
 
 .header--title__block {

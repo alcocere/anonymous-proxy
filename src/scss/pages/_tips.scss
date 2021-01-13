@@ -35,8 +35,7 @@
     border: $color-buttons solid 2px;
     border-radius: 22.5px;
     text-transform: capitalize;
-    display: flex;
-    align-items: center;
+    @include flexCenter();
     justify-content: center;
   }
 

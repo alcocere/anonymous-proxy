@@ -21,10 +21,8 @@
 
 .reasons--3reasons__title {
   font-family: $font-titles;
-  font-size: 18px;
+  @include textFontline();
   font-weight: bold;
-  line-height: 1.67;
-  text-align: center;
   color: $color-main;
   margin-top: 45px;
 }
@@ -32,9 +30,7 @@
 .reasons--3reasons__description {
   height: 63px;
   font-family: $font-main;
-  font-size: 18px;
-  line-height: 1.67;
-  text-align: center;
+  @include textFontline();
   color: $color-textSecondary;
 }
 

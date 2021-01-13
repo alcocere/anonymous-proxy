@@ -13,3 +13,13 @@ $color-menuTop: #0271bc;
 $color-textSecondary: #4a4a4a;
 
 //mixins
+@mixin textFontline() {
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin flexCenter() {
+  display: flex;
+  align-items: center;
+}
