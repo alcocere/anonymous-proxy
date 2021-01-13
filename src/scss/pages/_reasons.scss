@@ -53,7 +53,6 @@
 .reasons--button__link {
   text-decoration: none;
   color: inherit;
-  transition: all 0.5s ease-in-out;
 }
 
 .reasons--button:hover {
@@ -61,6 +60,7 @@
   border: $color-buttons solid 2px;
   background-color: $color-secondary;
   transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
 }
 
 .reasons--icon__bottom {
