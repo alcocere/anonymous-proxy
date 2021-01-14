@@ -39,8 +39,6 @@
 }
 
 @media all and (min-width: 720px) {
-  // FOOTER//
-
   .footer {
     padding: 45px 39px 45px;
     height: 240px;
@@ -72,10 +70,6 @@
   .footer {
     height: 240px;
     padding: 45px 370px;
-  }
-
-  .footer--container {
-    justify-content: space-evenly;
   }
 
   .footer--nav {

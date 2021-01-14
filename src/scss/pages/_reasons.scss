@@ -14,8 +14,7 @@
 
   &--container {
     display: grid;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    padding: 0 40px 0 35px;
+    justify-items: center;
   }
 
   &--3reasons__title {
@@ -24,6 +23,7 @@
     font-weight: bold;
     color: $color-main;
     margin-top: 45px;
+    margin-bottom: 0;
   }
 
   &--3reasons__description {
@@ -31,10 +31,12 @@
     font-family: $font-main;
     @include textFontline();
     color: $color-textSecondary;
+    padding: 0 70px;
   }
 
   &--button {
     width: 184px;
+    height: 45px;
     font-family: $font-main;
     color: $color-secondary;
     font-size: 20px;
@@ -87,31 +89,40 @@
     &--title {
       font-size: 26px;
       line-height: 1.73;
+      grid-row: 1;
+      grid-column: span 3;
     }
 
     &--container {
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 27px;
-      grid-template-rows: 1fr;
+      grid-template-columns: repeat(3, 210px);
+      grid-template-rows: repeat(3, auto);
+      grid-gap: 30px;
+      margin: 0 40px;
+      justify-content: center;
     }
 
-    &-3reasons__title {
+    &--3reasons__title {
       height: 45px;
       font-size: 20px;
       line-height: 1.5;
-      margin-top: 30px;
+      margin-bottom: 14px;
+      margin-top: 0;
     }
 
     &--3reasons__description {
       height: 68px;
       font-size: 20px;
       line-height: 1.5;
+      padding: 0;
     }
 
-    &-button {
+    &--button {
       width: 210px;
       height: 45px;
-      margin: 45px auto 0;
+      margin: 30px auto 0;
+      grid-area: button;
+      grid-column: span 3;
+      grid-row: 3;
     }
 
     &--icon__bottom {
@@ -122,7 +133,7 @@
 
 @media all and (min-width: 1200px) {
   .reasons {
-    padding: 60px 0 60px;
+    padding: 60px 0 38px;
 
     &-title {
       font-size: 32px;
@@ -130,10 +141,11 @@
     }
 
     &--container {
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: repeat(3, 353.8px);
       grid-gap: 26px;
       grid-template-rows: 1fr;
-      padding: 0 185px 0;
+      margin: 0 81.2px 0;
+      justify-content: space-between;
     }
 
     &--3reasons__title {
@@ -144,19 +156,18 @@
     }
 
     &--3reasons__description {
-      height: 68px;
       font-size: 20px;
       line-height: 1.5;
+      padding: 0 10px;
     }
 
     &--button {
-      width: 210px;
+      width: 255px;
       height: 45px;
-      margin: 60px auto 0;
+      margin: 34px auto 0;
     }
-
     &--icon__bottom {
-      transform: translate(0, 85px);
+      transform: translate(0, 65px);
     }
   }
 }
