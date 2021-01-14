@@ -1,0 +1,22 @@
+@media all and (max-width: 720px) {
+  .special-offer {
+    display: none;
+  }
+}
+
+@media all and (min-width: 720px) {
+  .special-offer {
+    background-color: $color-buttons;
+    display: block;
+  }
+
+  .special-offer__title {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .special-offer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
