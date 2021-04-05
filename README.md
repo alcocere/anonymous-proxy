@@ -1,8 +1,8 @@
 
 
-# Web Project at Adalab - Final Assessment Module 1 by Elisa Alcocer
+# Web Project at Adalab - Final Assessment Module 1
 
-## Tools & Technologies used:
+## Tools & Technologies I used:
 - Github/GitHub pages
 - Zeplin 
 - VS Code 
